@@ -6,7 +6,7 @@ metadata:
 data:
     DB_HOST: {{ .Values.configMap.db_host }}
 ---
-apiVersion: v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: backend
